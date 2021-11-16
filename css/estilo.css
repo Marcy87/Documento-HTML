@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(93, 93, 223), white, black);
+    background-size: 500% 100%;
+    animation-name: background;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out; /*função de tempo de animação: animação em transição lenta, aumentando a velocidade e, em seguida, diminuindo a velocidade novamente.*/
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+main {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, blue, white, black);
+    background-size: 500% 100%;
+    animation-name: background;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out; /*função de tempo de animação: animação em transição lenta, aumentando a velocidade e, em seguida, diminuindo a velocidade novamente.*/
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+figure {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, blue, white, black);
+    background-size: 500% 100%;
+    animation-name: background;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out; /*função de tempo de animação: animação em transição lenta, aumentando a velocidade e, em seguida, diminuindo a velocidade novamente.*/
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background {
+    0% {
+        background-position-x: 0%;
+    }
+    25% {
+        background-position-x: 25%;
+    }
+    50% {
+        background-position-x: 50%;
+    }
+    25% {
+        background-position-x: 25%;
+    }
+    0% {
+        background-position-x: 0%;
+    }
+}
